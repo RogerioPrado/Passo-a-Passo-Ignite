@@ -1,0 +1,19 @@
+Criar uma pasta: mkdir nome_da_pasta
+Entrar na pasta: cd nome_da_pasta
+Criar um um arquivo js: yarn init -y
+Abrir com o vscode: code .
+Para adicionar um pacote: yarn add nome_do_pacote
+Para adicionar um pacote somente em desenvolvimento: yarn add nome_do_pacote -D
+Vamos utilizar um micro framework para facilirar o desenvolviento
+Para adicionar o express: yarn add express
+Criar uma pasta "src" com o arquivo "index.js"
+Configurar o servidor
+Startar o servido: node scr/index.js
+Porem a cada modificação você terá que dar u restart no servidor.
+Para Restarta o servidor automáticamente temos o nodemon.
+Adicionar o nodemon: yarn add nodemon -D 
+Para utilizar o nodemon Dentro do packde.json:
+"scripts":{
+  "dev":"nodemon src/index.js"
+},
+Agora para startar o servidor: yarn dev
