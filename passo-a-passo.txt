@@ -17,3 +17,14 @@ Para utilizar o nodemon Dentro do packde.json:
   "dev":"nodemon src/index.js"
 },
 Agora para startar o servidor: yarn dev
+Nesse Capítulo foram visto os métodos HTTP:
+GET - Buscar uma inforação dentro do servidor
+POST - Inserir uma inforação dentro do servidor
+PUT - Alterar uma inforação dentro do servidor
+PATCH - Alterar uma inforação específica dentro do servidor
+DELETE - Deletar uma inforação dentro do servidor
+
+Tipos de parâmetros:
+Routes params => Identificar um recurso aditar/alterar/deletar/Buscar
+Query params => Paginação / filtro
+Body params => Os objetos inserção/alteração (JSON)
