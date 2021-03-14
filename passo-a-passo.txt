@@ -28,3 +28,9 @@ Tipos de parâmetros:
 Routes params => Identificar um recurso aditar/alterar/deletar/Buscar
 Query params => Paginação / filtro
 Body params => Os objetos inserção/alteração (JSON)
+Headers params => Utilizado para passar os tokens
+
+Middleware => Uma função que fica entre a requisição(request) e a resposta(response).
+Os middlewares são utilizados para validar tokens e verificar qual a classificação do usuário(administrador/coodenador).
+
+
